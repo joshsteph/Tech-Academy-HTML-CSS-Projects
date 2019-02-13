@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Create an Account</title>
+	<link rel= "stylesheet" href="viewmaster_style.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 	<img src="./images/tinyworlds.jpg" alt="">
 		<div>
 			<blockquote cite="https://envisioningtheamericandream.com/2015/08/13/summer-vacation-with-a-vintage-view/">
-				<p>Take family and friends on entertaining educational stereoscopic tours of the world famous wonderland with true to life color 3 D view master pictures.</p>
+				<p>Take family and friends on entertaining educational stereoscopic tours of the world famous wonderland with true to life color 3D view master pictures.</p>
 			</blockquote>
 		</div>
 </div>
@@ -34,23 +35,27 @@
 
 <!--ACCOUNT-->
 
-<div id="account">
-	<div>
+<div class="container" id="account">
+	<div class="accountbox">
 		<h2><strong>Create an Account</strong></h2>
 		<p><em>Registration is easy!</em></p>
 		<form action="" method="post">
-			Email:<br>
-			<input type="email" name=""><br>
-			First name:<br>
-			<input type="text" name=""><br>
-			Last name:<br>
-			<input type="text" name=""><br>
-			<p>Select an area of interest:</p>
-			<input type="checkbox" name="interest1" value="space">Space Photos<br>
-			<input type="checkbox" name="interest2" value="sports">Sports Photos<br>
-			<input type="checkbox" name="interest3" value="wildlife">Wildlife Photos<br>
-			<input type="checkbox" name="interest4" value="plants">Plant Photos<br>
-			<p><em>*Please check all that apply</em></p>
+			<input type="email" name="" placeholder="Email"><br>
+			<input type="text" name="" placeholder="First Name"><br>
+			<input type="text" name="" placeholder="Last Name"><br>
+				
+				<div class= "interest">
+					<p>Select an area of interest:</p>
+				
+					<input type="checkbox" name="interest1" value="space">Space Photos<br>
+					<input type="checkbox" name="interest2" value="sports">Sports Photos<br>
+					<input type="checkbox" name="interest3" value="wildlife">Wildlife Photos<br>
+					<input type="checkbox" name="interest4" value="plants">Plant Photos<br>
+				</div>
+
+				<div class="chk">
+					<p><em>*Please check all that apply</em></p>
+				</div>
 		</form>
 	</div>
 

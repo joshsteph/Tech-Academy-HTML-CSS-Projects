@@ -1,0 +1,50 @@
+body {
+	background-color: #ff3333;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+}
+
+.accountbox {
+	width: 350px;
+	height: 500px;
+	margin: 10px auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #00b3b3;
+	font-weight: normal;
+}
+
+.accountbox h2, .accountbox p {
+	margin: 0 0 0 2%;
+	padding: 3%;
+}
+
+input[type=text],
+input[type=email] {
+	width: 330px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 5px 6px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+input[type=checkbox] {
+	margin: 3% 2%;
+}
+
+.interest, .chk {
+
+	font-size: 20px;
+}
+
+.chk {
+	font-size: 16px;
+	margin: 15% 0 0 0;
+}
